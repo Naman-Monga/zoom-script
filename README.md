@@ -1,5 +1,6 @@
 # zoom-script
 A plug and play python script to join your scheduled zoom classes automatically.
+
 -> Just update your "schedule.csv" file with your week's schedule.
 Format for each row:
 Weekday,your.zoommeeting.link,HH:MM
