@@ -37,6 +37,7 @@ while(True):
     if triggered == 1:
         print('You have joined a class, going to sleep :) zzz')
         time.sleep(class_duration)
+        triggered = 0
         # Terminate the meeting once time is up
         os.system("TASKKILL /F /IM Zoom.exe")
         time.sleep(0.5)
